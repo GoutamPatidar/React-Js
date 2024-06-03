@@ -10,7 +10,10 @@ function App() {
   // let counter=15;
   const addValue = () => {
     //counter++;
+    // setCounter((counter=>counter+1))// used to update like a=a+1
+    // setCounter((counter=>counter+1))
     setCounter(counter+1)
+  
     console.log(counter, " clicked");
 
   }
